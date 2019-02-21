@@ -1,0 +1,35 @@
+<!-- Begin Tickets 2 Section -->
+<section id="tickets" class="tickets-2">
+	<div class="content-wrapper">
+		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+			<h3>{{ site.ticketsTitle }}</h3>
+      <table class="tickets-table" border="1">
+        <tbody>
+          <tr>
+            <td></td>
+            <td colspan="2"><b>Participants from Turkey</b></td>
+            <td colspan="2"><b>Participants from Other Country</b></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><b>Early Registration Until <span style='color:red;text-decoration:line-through'><span style='color:#333333'>15.09.2017</span></span><br>15.10.2017</b></td>
+            <td><b>Late Registration Until <span style='color:red;text-decoration:line-through'><span style='color:#333333'>15.10.2017</span></span><br>20.10.2017</b></td>
+            <td><b>Early Registration Until <span style='color:red;text-decoration:line-through'><span style='color:#333333'>15.09.2017</span></span><br>15.10.2017</b></td>
+            <td><b>Late Registration Until <span style='color:red;text-decoration:line-through'><span style='color:#333333'>15.10.2017</span></span><br>20.10.2017</b></td>
+          </tr>
+          {% for ticketsOffer in site.ticketsOffers %}
+            <tr>
+              <td><b>{{ ticketsOffer.name }}</b></td>
+              <td>{{ ticketsOffer.price1 }} {{ ticketsOffer.price1Currency  }}</td>
+              <td>{{ ticketsOffer.price2 }} {{ ticketsOffer.price2Currency  }}</td>
+              <td>{{ ticketsOffer.price3 }} {{ ticketsOffer.price3Currency  }}</td>
+              <td>{{ ticketsOffer.price4 }} {{ ticketsOffer.price4Currency  }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <span class="tickets-info">{{ site.ticketsInfo }}</span>
+		</div>
+	</div>
+</section>
+<!-- End Tickets 2 Section -->

@@ -1,0 +1,26 @@
+<!-- ImportantDates Section -->
+<section id="important-dates">
+  <div class="content-wrapper">
+    <div class="col-md-8 col-md-offset-2">
+      <table class="tickets-table" border="1">
+        <tbody>
+          <tr>
+            <td style="font-weight: bold;">Hotel Name</td>
+            <td style="font-weight: bold;">Phone</td>
+            <td style="font-weight: bold;">Address</td>
+            <td style="font-weight: bold;">Web</td>
+          </tr>
+          {% for hotel in site.data.hotels %}
+            <tr>
+              <td style="font-weight: bold; font-style: italic;">{{ hotel.name }}</td>
+              <td>{{ hotel.phone }}</td>
+              <td>{{ hotel.address }}</td>
+              <td><a href="{{ hotel.web }}">{{ hotel.web }}</a></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!-- End ImportantDates Section -->

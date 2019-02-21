@@ -1,0 +1,29 @@
+-
+  id: 1
+  name: "Hamparsum"
+  surname: "BOZDOĞAN"
+  title: "Prof. Dr."
+  company: "University of Tennessee, USA"
+  speakers: [1]
+-
+  id: 2
+  name: "Narayanaswamy"
+  surname: "Balakrishnan"
+  title: "Prof. Dr."
+  company: "McMaster University, Canada"
+  speakers: [2]
+-
+  id: 3
+  name: "David"
+  surname: "Percy"
+  title: "Prof. Dr."
+  company: "Salford University, United Kingdom"
+  speakers: [3]
+
+-
+  id: 4
+  name: "Yüksel"
+  surname: "Bek"
+  title: "Prof. Dr."
+  company: "Ondokuz Mayıs Üniversitesi, Biyoistatistik Bölümü"
+  speakers: [4]

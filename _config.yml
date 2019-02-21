@@ -1,0 +1,207 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "COSTAS 2017"
+email: "costas2017@omu.edu.tr"
+description: "COSTAS 2017"
+baseurl: ""
+url: "http://costas2017.omu.edu.tr"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: ""
+googleAnalyticsSiteUrl: ""
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+
+# Organizer Info
+organizerName: "OMÜ UZEM"
+organizerAlternateName: "OMÜ Distance Education Center"
+organizerDescription: "It conducts research and development and application studies related to distance education."
+organizerEmail: "costas2017@omu.edu.tr"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "http://uzem.omu.edu.tr/"
+
+# Head
+metaKeywords: "costas, uzem"
+twitterAccount: ""
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Navigation
+navigationLinks:
+ # - {permalink: "/", text: "Home"}
+ # - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/abstract-book/", text: "Abstract Book", blink: true}
+ - {permalink: "/topics/", text: "Call for Paper"}
+ - {permalink: "/speakers/", text: "Keynote Speakers"}
+ - {permalink: "/conference-program/", text: "Conference Program"}
+ - {permalink: "/team/", text: "Committees"}
+ - {permalink: "/important-dates/", text: "Important Dates"}
+ - {permalink: "/abstract-submission/", text: "Submission"}
+ - {permalink: "/logistics/", text: "About Samsun"}
+bottomNavigationLinks:
+ - {link: "http://pay.uzem.omu.edu.tr", text: "Registration"}
+rightNavigationButtons:
+ - {link: "http://pay.uzem.omu.edu.tr", text: "Registration"}
+
+# Hero Block
+heroImage: "hero.jpg"
+confType: "International Conference on"
+heroTitle: "Computational and Statistical Methods in Applied Sciences"
+heroTitleShort: "COSTAS 2017"
+eventDate: "November 9-11, 2017"
+typeoutTextValues: '"9", "10", "11"'
+heroButtons:
+ - {link: "http://pay.uzem.omu.edu.tr", text: "Registration"}
+ - {link: "http://costas2017.omu.edu.tr/abstract-submission/ ", text: "Submit Paper"}
+
+# About Block
+aboutTitle: "About COSTAS 2017"
+aboutBlock:
+ - {title: "", text: "The International Conference on COSTAS, organized by the Ondokuz Mayıs University - Department of Statistic,  will take place from 9th November to the 11th November 2017 in Samsun, Turkey. COSTAS2017 is intended to bring academicians and researchers together to share new advances and improvements in all fields of computational and statistical methods in applied sciences. The conference will cover many areas in applied sciences such as biology, chemistry, physics, engineering, agriculture, medicine, dentistry, economics, management, education, psychology, sociology etc. Our sincere thanks go to Distance Education Center (UZEM) in Ondokuz Mayıs University, for supporting and motivating us in every respect. Our conference also provides online participation facility with video conference system for researchers who cannot join to the conference. The online presentations can be done with the assistance of technical possibility of the UZEM. We invite all academic and non-academic researchers to contribute our conference." }
+
+# Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 3
+rockstarSpeakersTitle: "Keynote Speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Conference Hall"
+eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
+eventStreetAddress: "Ondokuz Mayıs University Distance Education Center, Kurupelit Campus"
+eventAddressLocality: "Samsun"
+eventAddressLocalityRegion: "Atakum"
+eventPostalCode: "55200"
+eventAddressCountry: "Turkey"
+eventStartTime: "2014-10-25T10:00"
+eventDoorTime: "09:00"
+eventEndTime: "2014-10-25T20:00"
+eventPlaceCoordinates: "41.3691922, 36.1980414"
+mapCenterCoordinates: "41.3691922, 36.1980414"
+mapMobileCenterCoordinates: "41.3691922, 36.1980414"
+
+# Important Dates
+importantDates:
+  - {description: "Deadline For Abstract Submission", date: "<span style='color:red;text-decoration:line-through'><span style='color:#333333'>7.10.2017</span></span><br>20.10.2017"}
+  - {description: "Early Registration Deadline", date: "<span style='color:red;text-decoration:line-through'><span style='color:#333333'>15.09.2017</span></span><br>15.10.2017"}
+  - {description: "Late Registration Deadline", date: "<span style='color:red;text-decoration:line-through'><span style='color:#333333'>15.10.2017</span></span><br>20.10.2017"}
+  - {description: "Conference Date", date: "9-10-11 November 2017"}
+
+# Abstract Submission
+submissionTemplateUrl: "/assets/Submission_Template_COSTAS_2017.docx"
+
+# Conference Program
+conferenceProgramUrl: "/assets/costas-conference-program.pdf"
+
+# Abstract Book
+abstractBookUrl: "/assets/costas-abstract-book.pdf"
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueTitle: "UZEM CONFERENCE HALLS"
+venueFeatures: ["Large and small conference halls", "Quality audio system", "Located directly in the university"]
+
+# Partners Block
+organizersTitle: "Organizers"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: ""
+subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+
+# Tickets Block
+ticketsTitle: "Registration Fees"
+ticketsInfo: "Registration fee includes the coffee-tea-cookies, lunches, and online book of abstracts, a conference bag and the certificate of participation/presentation. Reduced conference fees are available for students via the online registration system. When checking in at the conference, students will be asked to provide a copy of a valid Student ID, a confirmation from the supervisor, or other formal evidence of the student status. Due to limited capacity, early registration is recommended. One author can submit two presentations in the conference by one registration fee. Author must pay an extra fee (€40 or 100 ₺) for each presentation if they wish to present more than two presentations."
+ticketsOffers:
+ -
+  name: "Academic"
+  price1: "350"
+  price1Currency: "₺"
+  price2: "450"
+  price2Currency: "₺"
+  price3: "150"
+  price3Currency: "€"
+  price4: "200"
+  price4Currency: "€"
+ -
+  name: "Student"
+  price1: "250"
+  price1Currency: "₺"
+  price2: "350"
+  price2Currency: "₺"
+  price3: "100"
+  price3Currency: "€"
+  price4: "150"
+  price4Currency: "€"
+ -
+  name: "Virtual Presentation"
+  price1: "200"
+  price1Currency: "₺"
+  price2: "250"
+  price2Currency: "₺"
+  price3: "70"
+  price3Currency: "€"
+  price4: "90"
+  price4Currency: "€"
+ -
+  name: "Accompany Person & Daily Registration"
+  price1: "150"
+  price1Currency: "₺"
+  price2: "150"
+  price2Currency: "₺"
+  price3: "60"
+  price3Currency: "€"
+  price4: "60"
+  price4Currency: "€"
+
+# Footer
+socialLinks:
+ - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "http://uzem.omu.edu.tr/", text: "UZEM.omu.edu.tr"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "costas2017@omu.edu.tr", text: "costas2017@omu.edu.tr"}
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "41.3691922, 36.1980414"
+logisticsMapMobileCenterCoordinates: "41.3691922, 36.1980414"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "bulvar-avm.jpg"
+directionDetailsTitle: "Get around Samsun"
+directionDetailsCards:
+ - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://www.carsamba.dhmi.gov.tr/havaalanlari/home.aspx?hv=32">airport website</a>.'}
+ - {title: "Public Transit", information: 'Google Transit is available in Samsun. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Samsun.'}
+ - {title: "Hotels", information: 'Samsun has lots of great hotels and hostels. For more information please click <a href="hotels/">HERE</a>.'}
