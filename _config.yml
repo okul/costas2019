@@ -57,8 +57,8 @@ heroImage: "hero.jpg"
 confType: "International Conference on"
 heroTitle: "Computational and Statistical Methods in Applied Sciences"
 heroTitleShort: "COSTAS 2019"
-eventDate: "November 9-11, 2019"
-typeoutTextValues: '"9", "10", "11"'
+eventDate: "September 19-22, 2019"
+typeoutTextValues: '"19", "20", "21", "22"'
 heroButtons:
  - {link: "http://pay.uzem.omu.edu.tr", text: "Registration"}
  - {link: "http://costas2019.omu.edu.tr/abstract-submission/ ", text: "Submit Paper"}
@@ -66,7 +66,7 @@ heroButtons:
 # About Block
 aboutTitle: "About COSTAS 2019"
 aboutBlock:
- - {title: "", text: "The International Conference on COSTAS, organized by the Ondokuz Mayıs University - Department of Statistic,  will take place from 9th November to the 11th November 2019 in Samsun, Turkey. COSTAS2019 is intended to bring academicians and researchers together to share new advances and improvements in all fields of computational and statistical methods in applied sciences. The conference will cover many areas in applied sciences such as biology, chemistry, physics, engineering, agriculture, medicine, dentistry, economics, management, education, psychology, sociology etc. Our sincere thanks go to Distance Education Center (UZEM) in Ondokuz Mayıs University, for supporting and motivating us in every respect. Our conference also provides online participation facility with video conference system for researchers who cannot join to the conference. The online presentations can be done with the assistance of technical possibility of the UZEM. We invite all academic and non-academic researchers to contribute our conference." }
+ - {title: "", text: "The International Conference on COSTAS, organized by the Ondokuz Mayıs University - Department of Statistic,  will take place from 19th September to the 22th September 2019 in Samsun, Turkey. COSTAS2019 is intended to bring academicians and researchers together to share new advances and improvements in all fields of computational and statistical methods in applied sciences. The conference will cover many areas in applied sciences such as biology, chemistry, physics, engineering, agriculture, medicine, dentistry, economics, management, education, psychology, sociology etc. Our sincere thanks go to Distance Education Center (UZEM) in Ondokuz Mayıs University, for supporting and motivating us in every respect. Our conference also provides online participation facility with video conference system for researchers who cannot join to the conference. The online presentations can be done with the assistance of technical possibility of the UZEM. We invite all academic and non-academic researchers to contribute our conference." }
 
 # Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
@@ -92,10 +92,10 @@ mapMobileCenterCoordinates: "41.3691922, 36.1980414"
 
 # Important Dates
 importantDates:
-  - {description: "Deadline For Abstract Submission", date: "<span style='color:red;text-decoration:line-through'><span style='color:#333333'>7.10.2019</span></span><br>20.10.2019"}
-  - {description: "Early Registration Deadline", date: "<span style='color:red;text-decoration:line-through'><span style='color:#333333'>15.09.2019</span></span><br>15.10.2019"}
-  - {description: "Late Registration Deadline", date: "<span style='color:red;text-decoration:line-through'><span style='color:#333333'>15.10.2019</span></span><br>20.10.2019"}
-  - {description: "Conference Date", date: "9-10-11 November 2019"}
+  - {description: "Deadline For Abstract Submission", date: "20.10.2019"}
+  - {description: "Early Registration Deadline", date: "15.10.2019"}
+  - {description: "Late Registration Deadline", date: "20.10.2019"}
+  - {description: "Conference Date", date: "19-20-21-22 September 2019"}
 
 # Abstract Submission
 submissionTemplateUrl: "/assets/Submission_Template_COSTAS_2019.docx"
