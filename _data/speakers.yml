@@ -58,16 +58,3 @@
   company: "Ondokuz Mayıs Üniversitesi, Biyoistatistik Bölümü"
   title: "Prof. Dr."
   thumbnailUrl: "YukselBek.png"
-  
--
-  id: 5
-  name: "AAA"
-  surname: "BBB"
-  company: "Ondokuz Mayıs Üniversitesi, C Bölümü"
-  title: "Prof. Dr."
-  bio: "Bu bölümde bio olacak. He is Associate Director of the Centre for Sports Business, Chair of the Research,
-        Enterprise and Engagement Ethics Approval Panel, and Member of the School Ethics Committee.
-        He delivers lectures and tutorials for undergraduate and postgraduate students, and has experience as visiting professor,
-        external examiner, reviewer, editor, referee, research committee member, academic investigator, research convener,
-        doctoral supervisor, program leader, module leader, internal examiner, industrial placements tutor and admissions tutor."
-  thumbnailUrl: "NoImageMale.png"
