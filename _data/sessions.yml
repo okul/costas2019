@@ -27,3 +27,12 @@
   title: "Prof. Dr."
   company: "Ondokuz Mayıs Üniversitesi, Biyoistatistik Bölümü"
   speakers: [4]
+
+
+-
+  id: 5
+  name: "AAA"
+  surname: "BBB"
+  title: "Prof. Dr."
+  company: "Ondokuz Mayıs Üniversitesi, Biyoistatistik Bölümü"
+  speakers: [5]
